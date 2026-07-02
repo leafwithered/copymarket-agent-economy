@@ -43,7 +43,7 @@ One-page reviewer page:
 https://github.com/leafwithered/copymarket-agent-economy/blob/main/docs/index.html
 ```
 
-GitHub Pages target after Pages is enabled from `/docs`:
+GitHub Pages target, served from the `gh-pages` branch:
 
 ```text
 https://leafwithered.github.io/copymarket-agent-economy/
