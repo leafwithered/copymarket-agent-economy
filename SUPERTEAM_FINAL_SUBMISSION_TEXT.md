@@ -1,0 +1,75 @@
+# Superteam Final Submission Text
+
+## Field 1 - Link your GitHub Repo
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy
+```
+
+## Field 2 - Link your pitch deck
+
+Current fallback:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
+```
+
+The deck is inside the archive root as:
+
+```text
+CopyMarket_Agent_Economy_Pitch.pptx
+```
+
+## Field 3 - Link your demo video
+
+Current fallback:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
+```
+
+The demo video is inside the archive root as:
+
+```text
+CopyMarket_demo_video.avi
+```
+
+## Other Info
+
+```text
+CopyMarket is an escrow-settled agent service market for paid B2B growth work.
+
+The buyer agent broadcasts a WANT for copyrescue, collects bids, awards the best-value seller, opens arbiter-gated devnet escrow, and waits for delivery. The seller agent only delivers after escrow funding is verified.
+
+The sold artifact is concrete: hero rewrite, CTA, three section rewrites, conversion notes, and risk controls. The output is structured JSON so another agent can consume it without parsing a vague chat transcript.
+
+Public package link: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
+The package contains CopyMarket_Agent_Economy_Pitch.pptx and CopyMarket_demo_video.avi at the archive root, plus source code and verification artifacts.
+
+Local verification completed:
+- seller-agent typecheck passed
+- seller-agent tests passed: 5 files, 16 tests
+- buyer-agent typecheck passed
+- buyer-agent tests passed: 2 files, 13 tests
+- pitch deck overflow check passed
+
+Devnet proof preparation:
+- buyer public address: 6WwdWJNYYFAthMJFP1gdM7xysGJv1GhwpBRSL2ch8Yhd
+- seller public address: FeXKD6fYwGeBMeU5G9qF6HJk3Z9Wj5qFjFTopktFmJfD
+- arbiter public address: H5xAASAz21bhdtdRi73QSxa1bphXMTGCLXCwCbw2Ud9g
+- DEVNET_RUNBOOK.md explains how to produce the live Explorer proof once devnet funding/RPC is available.
+
+Main changed files:
+- coral-agents/seller-agent/src/service.ts
+- coral-agents/seller-agent/src/bidder.ts
+- coral-agents/buyer-agent/src/index.ts
+- coral-agents/buyer-agent/src/llm_buyer.ts
+- README.md
+- DEVNET_RUNBOOK.md
+- SUBMISSION.md
+- CopyMarket_Agent_Economy_Pitch.pptx
+- CopyMarket_demo_video.avi
+
+Contact Telegram: http://t.me/hierachleafleaf
+X: https://x.com/leafmyx
+```

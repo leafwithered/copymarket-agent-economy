@@ -1,0 +1,11 @@
+{
+  "name": "copymarket-agent-economy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CopyMarket - an escrow-settled agent market for landing-page copy rescue services.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/txodds.js"
+  }
+}
