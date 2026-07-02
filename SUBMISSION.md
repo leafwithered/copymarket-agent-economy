@@ -49,6 +49,12 @@ GitHub Pages target, served from the `gh-pages` branch:
 https://leafwithered.github.io/copymarket-agent-economy/
 ```
 
+Public X launch thread:
+
+```text
+https://x.com/leafmyx/status/2072747881883369696
+```
+
 Submission package:
 
 ```text

@@ -48,6 +48,7 @@ The package contains CopyMarket_Agent_Economy_Pitch.pptx and CopyMarket_demo_vid
 
 One-page reviewer page: https://github.com/leafwithered/copymarket-agent-economy/blob/main/docs/index.html
 GitHub Pages target served from the gh-pages branch: https://leafwithered.github.io/copymarket-agent-economy/
+Public X launch thread: https://x.com/leafmyx/status/2072747881883369696
 
 Local verification completed:
 - seller-agent typecheck passed
