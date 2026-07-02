@@ -52,6 +52,7 @@ or growth workflow could buy this kind of artifact without a human sales cycle.
 
 ## Review Artifacts
 
+- One-page reviewer site: `docs/index.html`
 - Pitch deck: `CopyMarket_Agent_Economy_Pitch.pptx`
 - Demo video: `CopyMarket_demo_video.avi` inside `CopyMarket_submission_package.zip`
 - Demo preview: `CopyMarket_demo_preview.gif`
@@ -124,6 +125,18 @@ Public repo:
 
 ```text
 https://github.com/leafwithered/copymarket-agent-economy
+```
+
+Reviewer page:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/docs/index.html
+```
+
+GitHub Pages target after Pages is enabled from `/docs`:
+
+```text
+https://leafwithered.github.io/copymarket-agent-economy/
 ```
 
 Contact:

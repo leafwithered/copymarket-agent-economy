@@ -37,6 +37,18 @@ GitHub repo:
 https://github.com/leafwithered/copymarket-agent-economy
 ```
 
+One-page reviewer page:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/docs/index.html
+```
+
+GitHub Pages target after Pages is enabled from `/docs`:
+
+```text
+https://leafwithered.github.io/copymarket-agent-economy/
+```
+
 Submission package:
 
 ```text

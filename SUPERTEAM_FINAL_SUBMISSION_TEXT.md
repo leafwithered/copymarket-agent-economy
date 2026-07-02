@@ -46,6 +46,9 @@ The sold artifact is concrete: hero rewrite, CTA, three section rewrites, conver
 Public package link: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
 The package contains CopyMarket_Agent_Economy_Pitch.pptx and CopyMarket_demo_video.avi at the archive root, plus source code and verification artifacts.
 
+One-page reviewer page: https://github.com/leafwithered/copymarket-agent-economy/blob/main/docs/index.html
+GitHub Pages target after Pages is enabled from /docs: https://leafwithered.github.io/copymarket-agent-economy/
+
 Local verification completed:
 - seller-agent typecheck passed
 - seller-agent tests passed: 5 files, 16 tests
@@ -68,6 +71,7 @@ Main changed files:
 - coral-agents/buyer-agent/src/index.ts
 - coral-agents/buyer-agent/src/llm_buyer.ts
 - README.md
+- docs/index.html
 - DEVNET_RUNBOOK.md
 - DEVNET_PAYMENT_PROOF.json
 - devnet_airdrop_proof.json
