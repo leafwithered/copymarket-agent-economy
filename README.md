@@ -58,6 +58,8 @@ or growth workflow could buy this kind of artifact without a human sales cycle.
 - Demo script: `demo_video_script.md`
 - Submission notes: `SUBMISSION.md`
 - Public submission package: `CopyMarket_submission_package.zip`
+- Devnet airdrop proof: `devnet_airdrop_proof.json`
+- Devnet buyer-to-seller payment proof: `DEVNET_PAYMENT_PROOF.json`
 
 ## Local Verification
 
@@ -106,7 +108,7 @@ Install dependencies for the relevant agent packages, then run the seller and bu
 For a live escrow run, use `DEVNET_RUNBOOK.md`. The run needs:
 
 - Node 20+
-- a live Solana devnet RPC
+- a live Solana devnet RPC, verified with `https://api.devnet.solana.com`
 - a funded buyer devnet wallet
 - optional LLM key; the seller service has a deterministic fallback
 

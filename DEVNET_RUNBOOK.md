@@ -19,12 +19,27 @@ material and must stay local.
 
 ## Needed Before A Live Run
 
-1. Fund the buyer address with devnet SOL from `https://faucet.solana.com`.
-2. Use a working Solana devnet RPC in `SOLANA_RPC_URL`.
+1. Fund the buyer address with devnet SOL from `https://faucet.solana.com` or `requestAirdrop`.
+2. Use a working Solana devnet RPC in `SOLANA_RPC_URL`; `https://api.devnet.solana.com` was verified.
 3. Optionally add an LLM key. Without one, the seller still returns deterministic structured output.
 
-In this environment, public Solana devnet RPC requests timed out during preparation, so the live
-Explorer proof was left ready-to-run rather than fabricated.
+## Live Devnet Proofs
+
+Buyer funding proof:
+
+```text
+https://explorer.solana.com/tx/4CMqLmrU6zLTaCFse1NP6F4WTeDjj1hbFcRagV8T8rNEQ8ZBziieaE2W8khwRree3iVnjrUTTBkyC497u6vAUoBe?cluster=devnet
+```
+
+Buyer-to-seller payment smoke proof:
+
+```text
+https://explorer.solana.com/tx/49V7wedjpa66Rzk87qhCzjshWVx4uw2zhBL4WhKzN7kTEfshickWW9dcwbUS11adb33LkhEFEiE9hFdQbcV1s7zo?cluster=devnet
+```
+
+The second transaction transfers 0.001 devnet SOL from the prepared buyer wallet to the prepared seller
+wallet. It is a live payment smoke proof, not the full arbiter escrow lifecycle. The full arbiter escrow
+run remains the strongest next reproduction step below.
 
 ## Run Commands
 
@@ -79,5 +94,7 @@ If a reviewer does not want to run devnet, inspect:
 - `sample_copyrescue_delivery.json`
 - `CopyMarket_Agent_Economy_Pitch.pptx`
 - `CopyMarket_demo_video.avi`
+- `devnet_airdrop_proof.json`
+- `DEVNET_PAYMENT_PROOF.json`
 
 These show the paid service, the market loop, and the escrow-gated delivery path.

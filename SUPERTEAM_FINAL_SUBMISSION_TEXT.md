@@ -53,11 +53,14 @@ Local verification completed:
 - buyer-agent tests passed: 2 files, 13 tests
 - pitch deck overflow check passed
 
-Devnet proof preparation:
+Live devnet proof:
 - buyer public address: 6WwdWJNYYFAthMJFP1gdM7xysGJv1GhwpBRSL2ch8Yhd
 - seller public address: FeXKD6fYwGeBMeU5G9qF6HJk3Z9Wj5qFjFTopktFmJfD
 - arbiter public address: H5xAASAz21bhdtdRi73QSxa1bphXMTGCLXCwCbw2Ud9g
-- DEVNET_RUNBOOK.md explains how to produce the live Explorer proof once devnet funding/RPC is available.
+- funding proof: https://explorer.solana.com/tx/4CMqLmrU6zLTaCFse1NP6F4WTeDjj1hbFcRagV8T8rNEQ8ZBziieaE2W8khwRree3iVnjrUTTBkyC497u6vAUoBe?cluster=devnet
+- buyer-to-seller payment proof: https://explorer.solana.com/tx/49V7wedjpa66Rzk87qhCzjshWVx4uw2zhBL4WhKzN7kTEfshickWW9dcwbUS11adb33LkhEFEiE9hFdQbcV1s7zo?cluster=devnet
+- RPC used: https://api.devnet.solana.com
+- DEVNET_RUNBOOK.md explains how to reproduce the full arbiter escrow lifecycle.
 
 Main changed files:
 - coral-agents/seller-agent/src/service.ts
@@ -66,6 +69,8 @@ Main changed files:
 - coral-agents/buyer-agent/src/llm_buyer.ts
 - README.md
 - DEVNET_RUNBOOK.md
+- DEVNET_PAYMENT_PROOF.json
+- devnet_airdrop_proof.json
 - SUBMISSION.md
 - CopyMarket_Agent_Economy_Pitch.pptx
 - CopyMarket_demo_video.avi

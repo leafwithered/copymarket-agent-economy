@@ -72,6 +72,8 @@ founder tool, broker, or marketplace workflow could buy without a human sales cy
 - Demo preview: `CopyMarket_demo_preview.gif`
 - Sample delivery: `sample_copyrescue_delivery.json`
 - Devnet runbook: `DEVNET_RUNBOOK.md`
+- Devnet airdrop proof: `devnet_airdrop_proof.json`
+- Devnet buyer-to-seller payment proof: `DEVNET_PAYMENT_PROOF.json`
 - Demo script: `demo_video_script.md`
 - Upload checklist: `UPLOAD_AND_SUBMIT.md`
 - Seller code: `coral-agents/seller-agent/src/service.ts`
@@ -116,11 +118,30 @@ Result:
 - Test passed.
 - No overflow detected.
 
-## Next Upgrade
+## Live Devnet Proof
 
-The strongest remaining upgrade is a live Solana devnet Explorer proof. The local wallets are generated
-and documented in `DEVNET_RUNBOOK.md`; the run needs devnet SOL on the buyer wallet and a working devnet
-RPC endpoint.
+The buyer wallet was funded on devnet and a live buyer-to-seller smoke payment was finalized.
+
+Funding proof:
+
+```text
+https://explorer.solana.com/tx/4CMqLmrU6zLTaCFse1NP6F4WTeDjj1hbFcRagV8T8rNEQ8ZBziieaE2W8khwRree3iVnjrUTTBkyC497u6vAUoBe?cluster=devnet
+```
+
+Buyer-to-seller payment proof:
+
+```text
+https://explorer.solana.com/tx/49V7wedjpa66Rzk87qhCzjshWVx4uw2zhBL4WhKzN7kTEfshickWW9dcwbUS11adb33LkhEFEiE9hFdQbcV1s7zo?cluster=devnet
+```
+
+RPC used:
+
+```text
+https://api.devnet.solana.com
+```
+
+The payment proof transfers 0.001 devnet SOL from buyer to seller and is recorded in
+`DEVNET_PAYMENT_PROOF.json`. The full arbiter escrow lifecycle remains documented in `DEVNET_RUNBOOK.md`.
 
 ## Superteam Agent Claim
 
