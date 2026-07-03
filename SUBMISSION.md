@@ -1,13 +1,13 @@
 # CopyMarket Agent Economy - Submission Notes
 
-Status: submitted to Superteam and pending review.
+Status: submitted to Superteam Agentic Engineering Grants and pending review.
 
 ## Listing
 
 Superteam Earn:
 
 ```text
-Imperial AI Agent Hackathon: Build the Agent Economy
+Agentic Engineering Grants
 ```
 
 Submission ID:
@@ -16,17 +16,10 @@ Submission ID:
 bdc5eb95-061a-4e42-9cff-8e8f5f444dd0
 ```
 
-Prize:
+Scope:
 
 ```text
-1st: 3000 USDG
-2nd-5th: 500 USDG
-```
-
-Deadline:
-
-```text
-2026-07-06T22:59:59.999Z
+Global grant application. Do not claim UK residency or UK-only eligibility.
 ```
 
 ## Public Links
@@ -188,3 +181,16 @@ https://superteam.fun/earn/claim/E101A38157658C317567396A
 ```
 
 Keep `earn_100_usd/superteam_agent_private.json` private. It contains the agent API key.
+
+
+## Grant Fit
+
+CopyMarket is aligned to Agentic Engineering Grants because it demonstrates a Solana-backed agent-to-agent service market:
+
+- buyer agents request work
+- seller agents bid and deliver structured output
+- devnet settlement proof makes the payment path inspectable
+- copyrescue is the first monetizable service
+- the next milestone is real revenue through stablecoin or mainnet settlement
+
+Do not overclaim: the current public proof is devnet-only and no real revenue is claimed yet.
