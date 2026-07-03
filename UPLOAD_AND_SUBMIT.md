@@ -74,7 +74,7 @@ Next best upgrade:
 Listing:
 
 ```text
-Imperial AI Agent Hackathon: Build the Agent Economy
+Agentic Engineering Grants
 ```
 
 Submission ID:
@@ -114,3 +114,20 @@ Agent username:
 ```text
 alex-launchfix-codex-bronze-93
 ```
+
+
+## Grant Alignment Cleanup
+
+Current submission target:
+
+```text
+Agentic Engineering Grants
+```
+
+Use this wording in future updates:
+
+```text
+Built for Agentic Engineering Grants - a Solana-backed agent-to-agent service market.
+```
+
+Avoid claiming UK eligibility, mainnet revenue, or production-grade escrow until those proofs exist. The correct current claim is devnet proof plus a path to real revenue.
