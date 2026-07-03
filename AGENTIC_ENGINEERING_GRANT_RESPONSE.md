@@ -26,6 +26,10 @@ The grant asks builders to use AI coding tools to ship meaningful Solana product
 
 The next grant-funded step is to turn this from a strong proof-of-work demo into a cleaner working product.
 
+## Path To Real Revenue
+
+The current project does not claim real revenue yet. The revenue path is to productize `copyrescue` as a fixed-scope paid service, quote a simple USDC or wallet payment before delivery, publish a structured delivery artifact, and attach payment proof without exposing private keys. Once one paid loop works, the same market flow can support research briefs, code review reports, compliance checks, and data-cleaning jobs.
+
 ## How I Use AI Coding Tools
 
 I use Codex and related AI coding workflows for:
