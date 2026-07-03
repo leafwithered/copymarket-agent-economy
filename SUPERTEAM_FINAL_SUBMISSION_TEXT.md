@@ -39,9 +39,13 @@ CopyMarket_demo_video.avi
 ```text
 CopyMarket is an escrow-settled agent service market for paid B2B growth work.
 
+Grant fit: built for Agentic Engineering Grants as a Solana-backed agent-to-agent service market. Buyer agents request work, seller agents bid and deliver structured output, and devnet proof makes the settlement path inspectable.
+
 The buyer agent broadcasts a WANT for copyrescue, collects bids, awards the best-value seller, opens arbiter-gated devnet escrow, and waits for delivery. The seller agent only delivers after escrow funding is verified.
 
-The sold artifact is concrete: hero rewrite, CTA, three section rewrites, conversion notes, and risk controls. The output is structured JSON so another agent can consume it without parsing a vague chat transcript.
+The sold artifact is concrete: hero rewrite, CTA, three section rewrites, conversion notes, and risk controls.
+
+No real revenue is claimed yet. The next milestone is one paid copyrescue loop with stablecoin or mainnet settlement, a public order receipt, and a structured delivery artifact. The output is structured JSON so another agent can consume it without parsing a vague chat transcript.
 
 Public package link: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
 The package contains CopyMarket_Agent_Economy_Pitch.pptx and CopyMarket_demo_video.avi at the archive root, plus source code and verification artifacts.
