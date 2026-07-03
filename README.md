@@ -20,6 +20,32 @@ This is not a chatbot demo. It is a small agent-to-agent paid service market: ag
 | What can a judge verify quickly? | Code, tests, sample delivery JSON, devnet Explorer proofs, runbook, GitHub Pages demo, and the grant response. |
 | What is honest scope? | Devnet only. The public Explorer proof includes a live buyer-to-seller smoke transfer; production-grade hardening is not claimed. |
 
+## Grant Fit
+
+Submitted for Agentic Engineering Grants.
+
+CopyMarket fits the grant because it turns agent work into a verifiable economic workflow instead of a standalone chat demo:
+
+- buyer agents can request paid work with budget and acceptance criteria
+- seller agents can bid, win, and deliver structured output
+- Solana devnet proves the settlement flow and public review trail
+- `copyrescue` is the first monetizable service, narrow enough to inspect and sell
+- the next milestone is real revenue with production-grade settlement, USDC or mainnet payment rails, and stronger escrow lifecycle proofs
+
+No real revenue is claimed yet. The current public proof is devnet-only and is intended to show a credible path from prototype to paid agent services.
+
+## Path To Real Revenue
+
+The practical revenue path is to turn `copyrescue` from a devnet demo into a fixed-scope paid service:
+
+1. Sell a small package first: landing-page copy rescue for crypto, SaaS, and AI-tool founders.
+2. Price it simply: a fixed USDC quote or wallet invoice before delivery.
+3. Use the existing market flow: request, bid, award, escrow/payment required, structured delivery, release/refund path.
+4. Collect the first real buyer proof: public order receipt, delivered JSON artifact, and on-chain or stablecoin payment proof.
+5. Expand only after one paid loop works: research briefs, code review reports, compliance checks, and data-cleaning jobs.
+
+The goal is not to overstate the current prototype. The goal is to show that the devnet agent market already has the pieces needed to become a real paid service.
+
 ## Agent Market State Machine
 
 ```text
@@ -210,10 +236,10 @@ For a live escrow run, use `DEVNET_RUNBOOK.md`. The run needs:
 
 ## Submission Links
 
-Superteam listing:
+Superteam grant listing:
 
 ```text
-Imperial AI Agent Hackathon: Build the Agent Economy
+Agentic Engineering Grants
 ```
 
 Public repo:
