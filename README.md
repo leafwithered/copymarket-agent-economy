@@ -158,6 +158,13 @@ Then inspect these repo artifacts:
 - Smoke payment proof: `DEVNET_PAYMENT_PROOF.json`
 - Grant response: `AGENTIC_ENGINEERING_GRANT_RESPONSE.md`
 - Submission package: `CopyMarket_submission_package.zip`
+- Direct demo video: `CopyMarket_demo_video.avi`
+
+Direct demo video URL:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
+```
 
 External proof links:
 
@@ -175,7 +182,7 @@ https://x.com/leafmyx/status/2072747881883369696
 ## Review Artifacts
 
 - Pitch deck: `CopyMarket_Agent_Economy_Pitch.pptx`
-- Demo video: `CopyMarket_demo_video.avi` inside `CopyMarket_submission_package.zip`
+- Demo video: `CopyMarket_demo_video.avi` as a direct repo artifact and inside `CopyMarket_submission_package.zip`
 - Demo preview: `CopyMarket_demo_preview.gif`
 - Demo script: `demo_video_script.md`
 - Submission notes: `SUBMISSION.md`
@@ -263,10 +270,10 @@ https://leafwithered.github.io/copymarket-agent-economy/
 Contact:
 
 ```text
-Telegram: http://t.me/hierachleafleaf
+Telegram: https://t.me/hierachleafleaf
 X: https://x.com/leafmyx
 ```
 
 ## Security Notes
 
-This repo must not include private keys, `.env`, `WALLETS.txt`, or the Superteam agent API key. The project is configured for devnet settlement only. Do not use a funded mainnet wallet.
+This repo must not include private keys, `.env`, `WALLETS.txt`, claim details, or private credentials. The project is configured for devnet settlement only. Do not use a funded mainnet wallet.
