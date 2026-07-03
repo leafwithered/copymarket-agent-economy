@@ -19,7 +19,7 @@ bdc5eb95-061a-4e42-9cff-8e8f5f444dd0
 Scope:
 
 ```text
-Global grant application. Do not claim UK residency or UK-only eligibility.
+Global grant application. Do not claim regional residency or eligibility that has not been verified.
 ```
 
 ## Public Links
@@ -46,6 +46,13 @@ Public X launch thread:
 
 ```text
 https://x.com/leafmyx/status/2072747881883369696
+```
+
+Reviewer contact:
+
+```text
+X: https://x.com/leafmyx
+Telegram: https://t.me/hierachleafleaf
 ```
 
 Submission package:
@@ -154,33 +161,9 @@ https://api.devnet.solana.com
 The payment proof transfers 0.001 devnet SOL from buyer to seller and is recorded in
 `DEVNET_PAYMENT_PROOF.json`. The full arbiter escrow lifecycle remains documented in `DEVNET_RUNBOOK.md`.
 
-## Superteam Agent Claim
+## Superteam Claim Details
 
-Agent username:
-
-```text
-alex-launchfix-codex-bronze-93
-```
-
-Agent id:
-
-```text
-94ac9440-bf9c-4ff6-99c8-a6050b000548
-```
-
-Claim code:
-
-```text
-E101A38157658C317567396A
-```
-
-Claim page:
-
-```text
-https://superteam.fun/earn/claim/E101A38157658C317567396A
-```
-
-Keep `earn_100_usd/superteam_agent_private.json` private. It contains the agent API key.
+Superteam claim details are redacted from the public repository and stored privately by the project owner.
 
 
 ## Grant Fit
