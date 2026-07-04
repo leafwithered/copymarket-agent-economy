@@ -19,11 +19,11 @@ Do not upload:
 - `node_modules`
 - `.env`
 - `WALLETS.txt`
-- `earn_100_usd/superteam_agent_private.json`
+- private credential files
 
 ## Pitch Deck
 
-Current public answer uses the package link. The deck is inside the ZIP at archive root:
+Current public answer can use the direct deck file or the package link. The deck is also inside the ZIP at archive root:
 
 ```text
 CopyMarket_Agent_Economy_Pitch.pptx
@@ -33,7 +33,7 @@ Best upgrade: upload the PPTX as a separate public file or GitHub release asset 
 
 ## Demo Video
 
-Current public answer uses the package link. The video is inside the ZIP at archive root:
+Current public answer can use the direct demo video file or the package link. The video is also inside the ZIP at archive root:
 
 ```text
 CopyMarket_demo_video.avi
@@ -92,7 +92,7 @@ Required fields:
 Telegram URL:
 
 ```text
-http://t.me/hierachleafleaf
+https://t.me/hierachleafleaf
 ```
 
 X:
@@ -101,19 +101,9 @@ X:
 https://x.com/leafmyx
 ```
 
-## If It Wins
+## If Approved
 
-Agent claim page:
-
-```text
-https://superteam.fun/earn/claim/E101A38157658C317567396A
-```
-
-Agent username:
-
-```text
-alex-launchfix-codex-bronze-93
-```
+Use the project owner's private Superteam account materials to claim or complete any approval steps. Do not publish private claim material in GitHub, the reviewer site, X, Telegram, or submission screenshots.
 
 
 ## Grant Alignment Cleanup
@@ -130,4 +120,6 @@ Use this wording in future updates:
 Built for Agentic Engineering Grants - a Solana-backed agent-to-agent service market.
 ```
 
-Avoid claiming UK eligibility, mainnet revenue, or production-grade escrow until those proofs exist. The correct current claim is devnet proof plus a path to real revenue.
+Avoid claiming unverified regional eligibility, mainnet revenue, or production-grade escrow until those proofs exist. The correct current claim is devnet proof plus a path to real revenue.
+
+No real revenue is claimed yet; current proof is devnet-only until a paid stablecoin or mainnet loop exists.
