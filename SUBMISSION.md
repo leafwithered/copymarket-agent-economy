@@ -52,7 +52,8 @@ Reviewer contact:
 
 ```text
 X: https://x.com/leafmyx
-Telegram: https://t.me/hierachleafleaf
+Telegram: https://t.me/hierarchleaf
+Email: hierarchleaf@gmail.com
 ```
 
 Submission package:
