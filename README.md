@@ -265,6 +265,7 @@ Contact:
 
 ```text
 Telegram: https://t.me/hierarchleaf
+Email: hierarchleaf@gmail.com
 X: https://x.com/leafmyx
 ```
 
