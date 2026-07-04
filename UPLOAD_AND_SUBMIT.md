@@ -92,7 +92,13 @@ Required fields:
 Telegram URL:
 
 ```text
-https://t.me/hierachleafleaf
+https://t.me/hierarchleaf
+```
+
+Email:
+
+```text
+hierarchleaf@gmail.com
 ```
 
 X:
