@@ -121,6 +121,9 @@ The current public proof includes a live buyer-to-seller devnet transfer and a d
 
 ```text
 X: https://x.com/leafmyx
-Telegram: https://t.me/hierachleafleaf
+Telegram: https://t.me/hierarchleaf
+Email: hierarchleaf@gmail.com
 Solana wallet: CwxV8FZwVKhVMqPqp8BV6zuoGDc12CA4qkz7jdmhnwWB
 ```
+
+The contact / claim wallet is separate from the devnet demo wallets. Devnet buyer, seller, and arbiter wallets are test-only and are not payout wallets.

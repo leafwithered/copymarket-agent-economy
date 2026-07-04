@@ -2,8 +2,9 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { Presentation, PresentationFile } from "@oai/artifact-tool";
 
-const OUT = "C:/Users/Administrator/Documents/work deliver/superteam_imperial_agent/CopyMarket_Agent_Economy_Pitch.pptx";
-const QA_DIR = "C:/Users/Administrator/AppData/Local/Temp/codex-presentations/superteam-copymarket/qa";
+const ROOT = process.cwd();
+const OUT = path.join(ROOT, "CopyMarket_Agent_Economy_Pitch.pptx");
+const QA_DIR = path.join(ROOT, "qa", "deck");
 const W = 1280;
 const H = 720;
 const ink = "#000000";

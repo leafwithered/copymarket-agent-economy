@@ -68,7 +68,7 @@ Live devnet proof:
 - funding proof: https://explorer.solana.com/tx/4CMqLmrU6zLTaCFse1NP6F4WTeDjj1hbFcRagV8T8rNEQ8ZBziieaE2W8khwRree3iVnjrUTTBkyC497u6vAUoBe?cluster=devnet
 - buyer-to-seller payment proof: https://explorer.solana.com/tx/49V7wedjpa66Rzk87qhCzjshWVx4uw2zhBL4WhKzN7kTEfshickWW9dcwbUS11adb33LkhEFEiE9hFdQbcV1s7zo?cluster=devnet
 - RPC used: https://api.devnet.solana.com
-- DEVNET_RUNBOOK.md explains how to reproduce the full arbiter escrow lifecycle.
+- DEVNET_RUNBOOK.md explains the documented arbiter escrow lifecycle; the current public Explorer proof is a buyer-to-seller devnet smoke transfer.
 
 Main changed files:
 - coral-agents/seller-agent/src/service.ts
@@ -84,6 +84,7 @@ Main changed files:
 - CopyMarket_Agent_Economy_Pitch.pptx
 - CopyMarket_demo_video.avi
 
-Contact Telegram: http://t.me/hierachleafleaf
+Contact Telegram: https://t.me/hierarchleaf
+Contact Email: hierarchleaf@gmail.com
 X: https://x.com/leafmyx
 ```

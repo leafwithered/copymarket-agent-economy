@@ -77,10 +77,10 @@ Listing:
 Agentic Engineering Grants
 ```
 
-Submission ID:
+Submission status:
 
 ```text
-bdc5eb95-061a-4e42-9cff-8e8f5f444dd0
+Submitted privately through Superteam. Submission ID and claim details are kept private.
 ```
 
 Required fields:

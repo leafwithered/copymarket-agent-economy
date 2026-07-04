@@ -7,8 +7,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-ROOT = Path(r"C:\Users\Administrator\Documents\work deliver\superteam_imperial_agent")
-QA = Path(r"C:\Users\Administrator\AppData\Local\Temp\codex-presentations\superteam-copymarket\qa")
+ROOT = Path.cwd()
+QA = ROOT / "qa" / "deck"
 OUT = ROOT / "CopyMarket_demo_video.avi"
 GIF_OUT = ROOT / "CopyMarket_demo_preview.gif"
 

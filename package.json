@@ -6,6 +6,6 @@
   "type": "module",
   "engines": { "node": ">=20" },
   "scripts": {
-    "dev": "node scripts/txodds.js"
+    "check": "echo \"Use coral-agents/buyer-agent and coral-agents/seller-agent package scripts for agent checks.\""
   }
 }

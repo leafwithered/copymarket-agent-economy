@@ -41,49 +41,43 @@ The second transaction transfers 0.001 devnet SOL from the prepared buyer wallet
 wallet. It is a live payment smoke proof, not the full arbiter escrow lifecycle. The full arbiter escrow
 run remains the strongest next reproduction step below.
 
-## Run Commands
+## Runnable Local Checks
 
-From the repo root:
+The public repository includes the buyer package, seller package, and the local `@pay/agent-runtime`
+dependency required by both agents. A reviewer can run the local verification without the older
+Docker/example workspace commands.
 
-```sh
-npm install --prefix scripts
-node scripts/setup.js
-```
-
-Then add or confirm the following values in `.env`:
-
-```ini
-SOLANA_RPC_URL=https://api.devnet.solana.com
-BUYER_SERVICE=copyrescue
-BUYER_ARG=crypto wallet landing page needs a clearer hero and trust path
-BUYER_MAX_SOL=0.001
-SETTLEMENT_MODE=arbiter
-```
-
-Run the market stack:
+From the repo root, use Node 20+ and pnpm:
 
 ```sh
-docker compose up -d coral
-bash build-agents.sh
-cd examples/marketplace
-npm install
-npm start
+cd coral-agents/buyer-agent
+pnpm install --lockfile=false --ignore-scripts
+pnpm exec tsc --noEmit
+pnpm exec vitest run
+
+cd ../seller-agent
+pnpm install --lockfile=false --ignore-scripts
+pnpm exec tsc --noEmit
+pnpm exec vitest run
 ```
 
-Expected lifecycle:
+Expected local verification:
 
 ```text
-WANT copyrescue ...
-BID ...
-AWARD ...
-ESCROW_REQUIRED ...
-DEPOSITED ...
-DELIVERED ...
-ARBITER_RELEASED ...
+buyer-agent: 2 test files, 13 tests passed
+seller-agent: 5 test files, 16 tests passed
 ```
 
-The buyer logs print devnet Explorer links for the arbiter program, vault PDA, escrow PDA, open
-transaction, and release transaction when `TRACE=1`.
+## Live Arbiter Lifecycle Status
+
+The current public Explorer proof is a finalized buyer-to-seller devnet smoke transfer. The repo
+contains the escrow/arbiter code path and devnet guard tests, but it does not yet publish a complete
+Explorer transaction set for `deposit -> delivery -> release/refund`.
+
+The next hardening target is to run the arbiter flow with funded devnet wallets and publish the
+open/release/refund Explorer links alongside `DEVNET_PAYMENT_PROOF.json`. Until then, this runbook
+should be read as runnable local checks plus public smoke transfer proof, not a completed production
+escrow audit.
 
 ## Reviewer Shortcut
 

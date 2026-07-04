@@ -272,3 +272,5 @@ X: https://x.com/leafmyx
 ## Security Notes
 
 This repo must not include private keys, `.env`, `WALLETS.txt`, claim details, or private credentials. The project is configured for devnet settlement only. Do not use a funded mainnet wallet.
+
+The contact / claim wallet is separate from the devnet demo wallets. Devnet buyer, seller, and arbiter wallets are test-only and are not payout wallets.

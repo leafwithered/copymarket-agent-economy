@@ -10,10 +10,10 @@ Superteam Earn:
 Agentic Engineering Grants
 ```
 
-Submission ID:
+Submission status:
 
 ```text
-bdc5eb95-061a-4e42-9cff-8e8f5f444dd0
+Submitted privately through Superteam. Submission ID and claim details are kept private.
 ```
 
 Scope:
@@ -161,6 +161,9 @@ https://api.devnet.solana.com
 
 The payment proof transfers 0.001 devnet SOL from buyer to seller and is recorded in
 `DEVNET_PAYMENT_PROOF.json`. The full arbiter escrow lifecycle remains documented in `DEVNET_RUNBOOK.md`.
+
+The contact / claim wallet is separate from the devnet demo wallets. Devnet buyer, seller, and
+arbiter wallets are test-only and are not payout wallets.
 
 ## Superteam Claim Details
 
