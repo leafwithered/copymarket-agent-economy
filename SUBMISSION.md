@@ -62,6 +62,12 @@ Submission package:
 https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
 ```
 
+Direct demo video:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
+```
+
 The package contains the pitch deck and demo video at the archive root:
 
 - `CopyMarket_Agent_Economy_Pitch.pptx`
@@ -87,12 +93,13 @@ founder tool, broker, or marketplace workflow could buy without a human sales cy
 ## Local Artifacts
 
 - Pitch deck: `CopyMarket_Agent_Economy_Pitch.pptx`
-- Demo video: `CopyMarket_demo_video.avi`
+- Demo video: `CopyMarket_demo_video.avi` (https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi)
 - Demo preview: `CopyMarket_demo_preview.gif`
 - Sample delivery: `sample_copyrescue_delivery.json`
 - Devnet runbook: `DEVNET_RUNBOOK.md`
 - Devnet airdrop proof: `devnet_airdrop_proof.json`
 - Devnet buyer-to-seller payment proof: `DEVNET_PAYMENT_PROOF.json`
+- Arbiter lifecycle proof status: `ARBITER_LIFECYCLE_STATUS.md`
 - Demo script: `demo_video_script.md`
 - Upload checklist: `UPLOAD_AND_SUBMIT.md`
 - Seller code: `coral-agents/seller-agent/src/service.ts`

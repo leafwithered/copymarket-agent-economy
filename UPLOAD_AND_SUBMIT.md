@@ -37,9 +37,11 @@ Current public answer can use the direct demo video file or the package link. Th
 
 ```text
 CopyMarket_demo_video.avi
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
+https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
 ```
 
-Best upgrade: upload the video as a separate public file, YouTube unlisted video, Loom, or GitHub release
+Current status: the video is now uploaded as a separate public GitHub file. YouTube unlisted, Loom, or GitHub release
 asset and update Superteam.
 
 ## Devnet Proof

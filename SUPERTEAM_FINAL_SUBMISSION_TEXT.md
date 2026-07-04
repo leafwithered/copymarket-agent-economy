@@ -8,30 +8,20 @@ https://github.com/leafwithered/copymarket-agent-economy
 
 ## Field 2 - Link your pitch deck
 
-Current fallback:
-
 ```text
-https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
-```
-
-The deck is inside the archive root as:
-
-```text
-CopyMarket_Agent_Economy_Pitch.pptx
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_Agent_Economy_Pitch.pptx
 ```
 
 ## Field 3 - Link your demo video
 
-Current fallback:
-
 ```text
-https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
+https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
 ```
 
-The demo video is inside the archive root as:
+Backup GitHub file page:
 
 ```text
-CopyMarket_demo_video.avi
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
 ```
 
 ## Other Info
@@ -47,8 +37,9 @@ The sold artifact is concrete: hero rewrite, CTA, three section rewrites, conver
 
 No real revenue is claimed yet. The next milestone is one paid copyrescue loop with stablecoin or mainnet settlement, a public order receipt, and a structured delivery artifact. The output is structured JSON so another agent can consume it without parsing a vague chat transcript.
 
-Public package link: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
-The package contains CopyMarket_Agent_Economy_Pitch.pptx and CopyMarket_demo_video.avi at the archive root, plus source code and verification artifacts.
+Pitch deck: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_Agent_Economy_Pitch.pptx
+Demo video: https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
+Public package backup: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
 
 One-page reviewer page: https://github.com/leafwithered/copymarket-agent-economy/blob/main/docs/index.html
 GitHub Pages target served from the gh-pages branch: https://leafwithered.github.io/copymarket-agent-economy/
@@ -68,7 +59,8 @@ Live devnet proof:
 - funding proof: https://explorer.solana.com/tx/4CMqLmrU6zLTaCFse1NP6F4WTeDjj1hbFcRagV8T8rNEQ8ZBziieaE2W8khwRree3iVnjrUTTBkyC497u6vAUoBe?cluster=devnet
 - buyer-to-seller payment proof: https://explorer.solana.com/tx/49V7wedjpa66Rzk87qhCzjshWVx4uw2zhBL4WhKzN7kTEfshickWW9dcwbUS11adb33LkhEFEiE9hFdQbcV1s7zo?cluster=devnet
 - RPC used: https://api.devnet.solana.com
-- DEVNET_RUNBOOK.md explains the documented arbiter escrow lifecycle; the current public Explorer proof is a buyer-to-seller devnet smoke transfer.
+- DEVNET_RUNBOOK.md explains runnable local checks.
+- ARBITER_LIFECYCLE_STATUS.md tracks that current public Explorer proof is a buyer-to-seller devnet smoke transfer, not a complete arbiter lifecycle transaction set yet.
 
 Main changed files:
 - coral-agents/seller-agent/src/service.ts
@@ -78,6 +70,7 @@ Main changed files:
 - README.md
 - docs/index.html
 - DEVNET_RUNBOOK.md
+- ARBITER_LIFECYCLE_STATUS.md
 - DEVNET_PAYMENT_PROOF.json
 - devnet_airdrop_proof.json
 - SUBMISSION.md

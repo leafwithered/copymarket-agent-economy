@@ -156,9 +156,12 @@ Then inspect these repo artifacts:
 - Delivery example: `sample_copyrescue_delivery.json`
 - Devnet runbook: `DEVNET_RUNBOOK.md`
 - Smoke payment proof: `DEVNET_PAYMENT_PROOF.json`
+- Arbiter lifecycle status: `ARBITER_LIFECYCLE_STATUS.md`
 - Grant response: `AGENTIC_ENGINEERING_GRANT_RESPONSE.md`
 - Submission package: `CopyMarket_submission_package.zip`
-- Demo video: `CopyMarket_demo_video.avi` is inside `CopyMarket_submission_package.zip`. The previous direct repo-root video URL was removed because the standalone video file is not published in the repo root.
+- Demo video: `CopyMarket_demo_video.avi` standalone file: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
+- Raw demo video download: https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
+- Submission package backup: `CopyMarket_submission_package.zip`
 
 External proof links:
 
@@ -176,13 +179,14 @@ https://x.com/leafmyx/status/2072747881883369696
 ## Review Artifacts
 
 - Pitch deck: `CopyMarket_Agent_Economy_Pitch.pptx`
-- Demo video: `CopyMarket_demo_video.avi` inside `CopyMarket_submission_package.zip`
+- Demo video: `CopyMarket_demo_video.avi` standalone file: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
 - Demo preview: `CopyMarket_demo_preview.gif`
 - Demo script: `demo_video_script.md`
 - Submission notes: `SUBMISSION.md`
 - Public submission package: `CopyMarket_submission_package.zip`
 - Devnet airdrop proof: `devnet_airdrop_proof.json`
 - Devnet buyer-to-seller payment proof: `DEVNET_PAYMENT_PROOF.json`
+- Arbiter lifecycle proof status: `ARBITER_LIFECYCLE_STATUS.md`
 
 ## Local Verification
 

@@ -63,6 +63,12 @@ Submission package:
 https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
 ```
 
+Direct demo video:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
+```
+
 X launch thread:
 
 ```text
@@ -115,7 +121,7 @@ Deliverables:
 
 ## Current Limitations
 
-The current public proof includes a live buyer-to-seller devnet transfer and a documented escrow-gated flow. It is honest about the remaining hardening work: the full arbiter escrow lifecycle is the next strongest proof target, and mainnet use is out of scope. The current project is devnet-only and must not use funded mainnet wallets.
+The current public proof includes a live buyer-to-seller devnet transfer and a documented escrow-gated flow. The full arbiter lifecycle transaction set is tracked in `ARBITER_LIFECYCLE_STATUS.md` and is not claimed as complete yet. It is honest about the remaining hardening work: the full arbiter escrow lifecycle is the next strongest proof target, and mainnet use is out of scope. The current project is devnet-only and must not use funded mainnet wallets.
 
 ## Contact
 
