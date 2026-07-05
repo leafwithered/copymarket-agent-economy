@@ -10,10 +10,11 @@ CopyMarket Agent Economy is a Solana devnet prototype for agent-to-agent paid wo
 
 1. Open the live reviewer page: https://leafwithered.github.io/copymarket-agent-economy/
 2. Watch the demo video: https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.mp4
-3. Inspect devnet proof: `DEVNET_PAYMENT_PROOF.json` and the Explorer links below.
-4. Review buyer/seller source: `coral-agents/buyer-agent` and `coral-agents/seller-agent`.
-5. Run local checks from `DEVNET_RUNBOOK.md` or GitHub Actions CI.
-6. Read proof scope: `ARBITER_LIFECYCLE_STATUS.md` and `FULL_ARBITER_ESCROW_PROOF.md`.
+3. Download the review release: https://github.com/leafwithered/copymarket-agent-economy/releases/tag/v0.1-review-package
+4. Inspect devnet proof: `DEVNET_PAYMENT_PROOF.json` and the Explorer links below.
+5. Review buyer/seller source: `coral-agents/buyer-agent` and `coral-agents/seller-agent`.
+6. Run local checks from `DEVNET_RUNBOOK.md` or GitHub Actions CI.
+7. Read proof scope: `ARBITER_LIFECYCLE_STATUS.md` and `FULL_ARBITER_ESCROW_PROOF.md`.
 
 ### Current Status
 
@@ -188,6 +189,7 @@ Then inspect these repo artifacts:
 - Review release notes: `RELEASE_NOTES_v0.1_REVIEW_PACKAGE.md`
 - Grant response: `AGENTIC_ENGINEERING_GRANT_RESPONSE.md`
 - Submission package: `CopyMarket_submission_package.zip`
+- Review release: https://github.com/leafwithered/copymarket-agent-economy/releases/tag/v0.1-review-package
 - Demo video: `CopyMarket_demo_video.mp4` standalone file: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.mp4
 - Raw demo video download: https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.mp4
 - AVI backup: `CopyMarket_demo_video.avi`
@@ -215,6 +217,7 @@ https://x.com/leafmyx/status/2072747881883369696
 - Demo script: `demo_video_script.md`
 - Submission notes: `SUBMISSION.md`
 - Public submission package: `CopyMarket_submission_package.zip`
+- Review release: https://github.com/leafwithered/copymarket-agent-economy/releases/tag/v0.1-review-package
 - Devnet airdrop proof: `devnet_airdrop_proof.json`
 - Devnet buyer-to-seller payment proof: `DEVNET_PAYMENT_PROOF.json`
 - Arbiter lifecycle proof status: `ARBITER_LIFECYCLE_STATUS.md`

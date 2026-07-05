@@ -68,6 +68,12 @@ Submission package:
 https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
 ```
 
+Review release:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/releases/tag/v0.1-review-package
+```
+
 Direct demo video:
 
 ```text
