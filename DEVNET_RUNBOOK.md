@@ -53,6 +53,8 @@ From the repo root, use Node 20+ and pnpm:
 pnpm run verify
 ```
 
+This installs buyer/seller dependencies, then runs both agent typechecks and tests.
+
 Equivalent package-level commands:
 
 ```sh

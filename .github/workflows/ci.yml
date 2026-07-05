@@ -5,11 +5,8 @@ on:
   pull_request:
 
 jobs:
-  buyer-agent:
+  verify:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: coral-agents/buyer-agent
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -18,23 +15,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - run: pnpm install --lockfile=false --ignore-scripts
-      - run: pnpm run typecheck
-      - run: pnpm test
-
-  seller-agent:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: coral-agents/seller-agent
-    steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-      - run: pnpm install --lockfile=false --ignore-scripts
-      - run: pnpm run typecheck
-      - run: pnpm test
+      - run: pnpm run verify

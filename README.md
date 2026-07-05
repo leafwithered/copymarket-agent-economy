@@ -232,7 +232,7 @@ From the repo root:
 pnpm run verify
 ```
 
-This runs buyer and seller typecheck/test scripts.
+This installs buyer/seller dependencies, then runs buyer and seller typecheck/test scripts.
 
 Seller agent:
 
@@ -274,7 +274,7 @@ Verified result:
 
 ## Quick Start
 
-Install dependencies for the relevant agent packages, then run `pnpm run verify` or the seller and buyer checks above.
+Run `pnpm run verify` from the repo root, or install dependencies for the relevant agent packages and run the seller and buyer checks above.
 
 For a live escrow run, use `DEVNET_RUNBOOK.md`. The run needs:
 

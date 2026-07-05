@@ -19,6 +19,8 @@ CopyMarket is a Solana devnet agent-to-agent service market for paid digital wor
 pnpm run verify
 ```
 
+This installs buyer/seller dependencies, then runs typecheck/tests for both agents.
+
 Expected result:
 
 - buyer-agent: 13 tests passed

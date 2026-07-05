@@ -52,7 +52,7 @@ Local verification completed:
 - seller-agent tests passed: 5 files, 16 tests
 - buyer-agent typecheck passed
 - buyer-agent tests passed: 2 files, 13 tests
-- root verify script available: pnpm run verify
+- root verify script available: pnpm run verify, which installs buyer/seller dependencies and runs typecheck/tests
 - pitch deck overflow check passed
 
 Live devnet proof:
