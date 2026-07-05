@@ -128,6 +128,6 @@ Use this wording in future updates:
 Built for Agentic Engineering Grants - a Solana-backed agent-to-agent service market.
 ```
 
-Avoid claiming unverified regional eligibility, mainnet revenue, or production-grade escrow until those proofs exist. The correct current claim is devnet proof plus a path to real revenue.
+Avoid claiming unverified regional eligibility, production revenue, or production-grade escrow until those proofs exist. The correct current claim is devnet proof plus a path to real revenue.
 
 No real revenue is claimed yet; current proof is devnet-only until a paid stablecoin or mainnet loop exists.
