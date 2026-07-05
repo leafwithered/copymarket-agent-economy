@@ -17,7 +17,7 @@ jobs:
           version: 9
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
       - run: pnpm install --lockfile=false --ignore-scripts
       - run: pnpm run typecheck
       - run: pnpm test
@@ -34,7 +34,7 @@ jobs:
           version: 9
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
       - run: pnpm install --lockfile=false --ignore-scripts
       - run: pnpm run typecheck
       - run: pnpm test

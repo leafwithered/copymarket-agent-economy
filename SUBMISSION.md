@@ -48,6 +48,12 @@ Public X launch thread:
 https://x.com/leafmyx/status/2072747881883369696
 ```
 
+X backup summary:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/X_POST_BACKUP.md
+```
+
 Reviewer contact:
 
 ```text
@@ -65,12 +71,13 @@ https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_su
 Direct demo video:
 
 ```text
-https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.mp4
 ```
 
 The package contains the pitch deck and demo video at the archive root:
 
 - `CopyMarket_Agent_Economy_Pitch.pptx`
+- `CopyMarket_demo_video.mp4`
 - `CopyMarket_demo_video.avi`
 
 ## Project
@@ -93,7 +100,8 @@ founder tool, broker, or marketplace workflow could buy without a human sales cy
 ## Local Artifacts
 
 - Pitch deck: `CopyMarket_Agent_Economy_Pitch.pptx`
-- Demo video: `CopyMarket_demo_video.avi` (https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi)
+- Demo video: `CopyMarket_demo_video.mp4` (https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.mp4)
+- AVI backup: `CopyMarket_demo_video.avi`
 - Demo preview: `CopyMarket_demo_preview.gif`
 - Sample delivery: `sample_copyrescue_delivery.json`
 - Devnet runbook: `DEVNET_RUNBOOK.md`

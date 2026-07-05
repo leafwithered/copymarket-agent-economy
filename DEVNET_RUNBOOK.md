@@ -50,6 +50,12 @@ Docker/example workspace commands.
 From the repo root, use Node 20+ and pnpm:
 
 ```sh
+pnpm run verify
+```
+
+Equivalent package-level commands:
+
+```sh
 cd coral-agents/buyer-agent
 pnpm install --lockfile=false --ignore-scripts
 pnpm exec tsc --noEmit
@@ -79,6 +85,15 @@ open/release/refund Explorer links alongside `DEVNET_PAYMENT_PROOF.json`. Until 
 should be read as runnable local checks plus public smoke transfer proof, not a completed production
 escrow audit.
 
+Required private inputs for that run:
+
+- `BUYER_KEYPAIR_B58`
+- `ARBITER_KEYPAIR_B58`
+- `SELLER_WALLET`
+- funded devnet buyer balance
+
+Do not publish those private key values. Only publish public addresses, Explorer links, and PDA values.
+
 ## Reviewer Shortcut
 
 If a reviewer does not want to run devnet, inspect:
@@ -87,6 +102,7 @@ If a reviewer does not want to run devnet, inspect:
 - `coral-agents/buyer-agent/src/index.ts`
 - `sample_copyrescue_delivery.json`
 - `CopyMarket_Agent_Economy_Pitch.pptx`
+- `CopyMarket_demo_video.mp4`
 - `CopyMarket_demo_video.avi`
 - `devnet_airdrop_proof.json`
 - `DEVNET_PAYMENT_PROOF.json`

@@ -31,18 +31,29 @@ CopyMarket_Agent_Economy_Pitch.pptx
 
 Best upgrade: upload the PPTX as a separate public file or GitHub release asset and update Superteam.
 
-## Demo Video
-
-Current public answer can use the direct demo video file or the package link. The video is also inside the ZIP at archive root:
+Direct deck link:
 
 ```text
-CopyMarket_demo_video.avi
-https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
-https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_Agent_Economy_Pitch.pptx
 ```
 
-Current status: the video is now uploaded as a separate public GitHub file. YouTube unlisted, Loom, or GitHub release
-asset and update Superteam.
+## Demo Video
+
+Current public answer should use the direct MP4 demo video file. The AVI and ZIP are backups.
+
+```text
+CopyMarket_demo_video.mp4
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.mp4
+https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.mp4
+```
+
+Current status: the MP4 video is now uploaded as a separate public GitHub file. YouTube unlisted, Loom, or GitHub release asset remain optional upgrades.
+
+AVI backup:
+
+```text
+https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
+```
 
 ## Devnet Proof
 
@@ -70,6 +81,8 @@ Next best upgrade:
 
 1. Run the market with `TRACE=1`.
 2. Add the full arbiter escrow open and release Explorer transaction links to Superteam `otherInfo`.
+
+Do not mark full arbiter lifecycle proof as complete unless the repository includes the actual Explorer transaction set.
 
 ## Superteam Submission
 

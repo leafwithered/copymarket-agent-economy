@@ -15,13 +15,13 @@ https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_Ag
 ## Field 3 - Link your demo video
 
 ```text
-https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
+https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.mp4
 ```
 
 Backup GitHub file page:
 
 ```text
-https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
+https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.mp4
 ```
 
 ## Other Info
@@ -38,18 +38,20 @@ The sold artifact is concrete: hero rewrite, CTA, three section rewrites, conver
 No real revenue is claimed yet. The next milestone is one paid copyrescue loop with stablecoin or mainnet settlement, a public order receipt, and a structured delivery artifact. The output is structured JSON so another agent can consume it without parsing a vague chat transcript.
 
 Pitch deck: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_Agent_Economy_Pitch.pptx
-Demo video: https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
+Demo video: https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.mp4
 Public package backup: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_submission_package.zip
 
 One-page reviewer page: https://github.com/leafwithered/copymarket-agent-economy/blob/main/docs/index.html
 GitHub Pages target served from the gh-pages branch: https://leafwithered.github.io/copymarket-agent-economy/
 Public X launch thread: https://x.com/leafmyx/status/2072747881883369696
+X backup summary: https://github.com/leafwithered/copymarket-agent-economy/blob/main/X_POST_BACKUP.md
 
 Local verification completed:
 - seller-agent typecheck passed
 - seller-agent tests passed: 5 files, 16 tests
 - buyer-agent typecheck passed
 - buyer-agent tests passed: 2 files, 13 tests
+- root verify script available: pnpm run verify
 - pitch deck overflow check passed
 
 Live devnet proof:
@@ -75,6 +77,7 @@ Main changed files:
 - devnet_airdrop_proof.json
 - SUBMISSION.md
 - CopyMarket_Agent_Economy_Pitch.pptx
+- CopyMarket_demo_video.mp4
 - CopyMarket_demo_video.avi
 
 Contact Telegram: https://t.me/hierarchleaf
