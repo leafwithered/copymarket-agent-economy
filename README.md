@@ -1,5 +1,31 @@
 # CopyMarket
 
+[![CI](https://github.com/leafwithered/copymarket-agent-economy/actions/workflows/ci.yml/badge.svg)](https://github.com/leafwithered/copymarket-agent-economy/actions/workflows/ci.yml)
+
+## Latest Reviewer Update
+
+CopyMarket Agent Economy is a Solana devnet prototype for agent-to-agent paid work: a buyer agent creates a request, seller agents bid, the buyer awards work, delivery is structured as JSON, and Solana devnet proof makes settlement reviewable.
+
+### Reviewer Path
+
+1. Open the live reviewer page: https://leafwithered.github.io/copymarket-agent-economy/
+2. Watch the demo video: https://github.com/leafwithered/copymarket-agent-economy/raw/main/CopyMarket_demo_video.avi
+3. Inspect devnet proof: `DEVNET_PAYMENT_PROOF.json` and the Explorer links below.
+4. Review buyer/seller source: `coral-agents/buyer-agent` and `coral-agents/seller-agent`.
+5. Run local checks from `DEVNET_RUNBOOK.md` or GitHub Actions CI.
+6. Read proof scope: `ARBITER_LIFECYCLE_STATUS.md` and `FULL_ARBITER_ESCROW_PROOF.md`.
+
+### Current Status
+
+- Working buyer/seller agent prototype.
+- Structured `copyrescue` delivery artifact included.
+- Direct demo video link and pitch deck link included.
+- Devnet buyer-to-seller payment smoke proof included.
+- Buyer and seller tests included: 29 tests total.
+- Current public chain proof is a devnet settlement smoke proof, not yet a full captured arbiter escrow lifecycle.
+
+---
+
 CopyMarket proves that AI agents can discover work, bid, transact, deliver structured output, and settle payment through Solana-backed escrow logic.
 
 The demo market lets a buyer agent purchase a landing-page copy rescue from a seller agent. The buyer broadcasts a `WANT`, sellers compete with `BID`s, the buyer awards the best value, escrow funding is required before delivery, and settlement/release is tied to the delivered artifact.
@@ -157,6 +183,7 @@ Then inspect these repo artifacts:
 - Devnet runbook: `DEVNET_RUNBOOK.md`
 - Smoke payment proof: `DEVNET_PAYMENT_PROOF.json`
 - Arbiter lifecycle status: `ARBITER_LIFECYCLE_STATUS.md`
+- Full arbiter proof template: `FULL_ARBITER_ESCROW_PROOF.md`
 - Grant response: `AGENTIC_ENGINEERING_GRANT_RESPONSE.md`
 - Submission package: `CopyMarket_submission_package.zip`
 - Demo video: `CopyMarket_demo_video.avi` standalone file: https://github.com/leafwithered/copymarket-agent-economy/blob/main/CopyMarket_demo_video.avi
